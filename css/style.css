@@ -781,7 +781,16 @@ background: url("../images/first-bg.jpg") 50% 50% no-repeat;
   }
 
 
-/*-------------------END about-gooods----------------*/
+/*-------------------END about-goods----------------*/
+/*-------------------attention----------------*/
+.attention-block{
+  display: flex;
+  flex-direction: column;
+  max-width: 33%;
+  background: url("../images/attention.png") 50% 0 no-repeat;
+  padding-top: 100px;
+}
+/*-------------------END attention----------------*/
 
 /*------------------ screen grass ---------------------*/
 
@@ -1798,7 +1807,7 @@ justify-content: space-between;
   .steps-block ul li h3{
     margin-top: 32px;
   }
-  
+
   .goods-bottom .offer-span{
     margin: 20px auto;
   }
